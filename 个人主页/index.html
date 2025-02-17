@@ -41,13 +41,22 @@
 			<!-- Footer -->
 			<footer id="footer">
 				<p class="copyright">
-					您的IP：
-					<script src="https://api.ipify.org?format=jsonp&callback=showIP"></script>
-					<script type="text/javascript">
-                                               function showIP(json) {
-						     document.write("" + json.ip);
-                                                }
-					</script>
+    您的IP：
+    <script>
+        // 现代浏览器推荐方案
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('https://api.ipify.org?format=json')
+                .then(response => response.json())
+                .then(data => {
+                    // 保持原有输出结构，仅替换IP部分
+                    document.querySelector('.copyright').innerHTML = 
+                        `您的IP：<span style="display: inline">${data.ip}</span>`;
+                })
+                .catch(() => {
+                    document.querySelector('.copyright').innerHTML = '您的IP：获取失败';
+                });
+        });
+    </script>
 				</p>
 				<p class="copyright">
 					<script>
