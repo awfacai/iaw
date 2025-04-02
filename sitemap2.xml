@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- 首页 -->
+    <url>
+        <loc>https://awei.nyc.mn/</loc>
+        <lastmod>2023-10-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- 关于我们 -->
+    <url>
+        <loc>https://awei.nyc.mn/about</loc>
+        <lastmod>2023-09-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- 服务/项目 -->
+    <url>
+        <loc>https://awei.nyc.mn/services</loc>
+        <lastmod>2023-09-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- 博客 -->
+    <url>
+        <loc>https://awei.nyc.mn/blog</loc>
+        <lastmod>2023-10-05</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- 联系我们 -->
+    <url>
+        <loc>https://awei.nyc.mn/contact</loc>
+        <lastmod>2023-09-10</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- 隐私政策 -->
+    <url>
+        <loc>https://awei.nyc.mn/privacy</loc>
+        <lastmod>2023-08-01</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- 条款与条件 -->
+    <url>
+        <loc>https://awei.nyc.mn/terms</loc>
+        <lastmod>2023-08-01</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>
